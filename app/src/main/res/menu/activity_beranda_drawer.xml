@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_beranda"
+            android:icon="@drawable/ic_home"
+            android:title="Beranda" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_login"
+            android:title="Login" />
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/ic_edit"
+            android:title="Edit Profil" />
+        <item
+            android:id="@+id/nav_addEvent"
+            android:icon="@drawable/ic_add"
+            android:title="Buat Event" />
+        <item
+            android:id="@+id/nav_manageEvent"
+            android:icon="@drawable/ic_list_event"
+            android:visible="false"
+            android:title="Kelola Event" />
+        <item
+            android:id="@+id/nav_eventku"
+            android:icon="@drawable/ic_event"
+            android:title="Eventku" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_setup"
+                android:icon="@drawable/ic_settings"
+                android:title="Setup" />
+            <item
+                android:id="@+id/nav_guide"
+                android:icon="@drawable/ic_guide"
+                android:title="User Guide" />
+        </menu>
+    </item>
+
+</menu>
