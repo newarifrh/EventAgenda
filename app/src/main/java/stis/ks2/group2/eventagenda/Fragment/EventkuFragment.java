@@ -85,7 +85,7 @@ public class EventkuFragment extends Fragment {
                         Events events = new Events();
                         events.setId(jsonObject.getString("id"));
                         events.setNama(jsonObject.getString("nama"));
-                        events.setGambar(WEB_URL+jsonObject.getString("gambar"));
+                        events.setGambar(WEB_URL + jsonObject.getString("gambar"));
 
                         lstEvents.add(events);
 
